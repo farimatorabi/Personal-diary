@@ -1,0 +1,64 @@
+body {
+      font-family: 'Gill Sans', 'Gill Sans MT';
+      font-size: 20px;
+      margin: 5%;
+      display: grid;
+      justify-content: center;
+}
+
+.title {
+      color: rgb(204, 6, 6);
+      text-align: center;
+      margin-bottom: 20px;
+
+}
+
+
+
+.entry-textbox {
+      background-color: rgb(224, 255, 153);
+      height: 20em;
+      width: 30em;
+      padding: 20px;
+      border-radius: 20px;
+      border: none;
+      margin-bottom: 6px;
+      outline-style: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+}
+
+.button {
+      border-radius: 15px;
+      padding: 10px;
+      border: none;
+      margin-left: 30em;
+      cursor: pointer;
+      outline-style: none;
+}
+
+#entries {
+      background-color: #f59d2b;
+      color: #63297a;
+      border-radius: 20px;
+      padding: 20px;
+      border: none;
+      max-width: 20em;
+      margin-top: 1em;
+      font-family: cursive;
+}
+
+.entries-nav {
+      padding-bottom: 1em;
+}
+
+
+.display-entry-button {
+      margin: 0.2em;
+}
+
+.display-entry-button:hover {
+      cursor: pointer;
+}
